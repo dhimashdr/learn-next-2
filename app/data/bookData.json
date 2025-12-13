@@ -1,0 +1,35 @@
+[
+    {
+    "title": "Holy Mother",
+    "cover": "/images/books/holy-mother.jpg",
+    "author": "Akiyoshi Rikako",
+    "blurb": "Demi melindungi putrinya dari pembunuh sadis, seorang ibu rela melakukan dosa terberat dengan akhir yang mengejutkan.",
+    "pages": 420,
+    "genre": ["Mystery", "Thriller", "Psychological"],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn":"978-602-6383-39-6"
+    },
+    {
+    "title": "Scheduled Suicide Day",
+    "cover": "/images/books/scheduled-suicide-day.jpg",
+    "author": "Akiyoshi Rikako",
+    "blurb": "Ruri ingin bunuh diri, namun hantu memberinya waktu seminggu untuk membongkar kejahatan ibu tirinya sebelum nyawanya dicabut.",
+    "pages": 389,
+    "genre": ["Mystery", "Thriller", "Psychological"],
+    "types": "Fiction",
+    "rate": 3.5,
+    "isbn":"978-602-6383-10-5"
+    },
+    {
+    "title": "Rindu",
+    "cover": "/images/books/rindu.jpg",
+    "author": "Tere Liye",
+    "blurb": "Kisah perjalanan haji tahun 1938 yang mengupas kerinduan, kebencian, dan penerimaan masa lalu lima tokoh di atas kapal.",
+    "pages": 520,
+    "genre": ["Family", "History", "Romance"],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn":"978-623-95545-2-1"
+    }
+]
