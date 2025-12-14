@@ -4,7 +4,7 @@
     "cover": "/images/books/holy-mother.jpg",
     "author": "Akiyoshi Rikako",
     "blurb": "Demi melindungi putrinya dari pembunuh sadis, seorang ibu rela melakukan dosa terberat dengan akhir yang mengejutkan.",
-    "pages": 420,
+    "pages": 288,
     "genre": ["Mystery", "Thriller", "Psychological"],
     "types": "Fiction",
     "rate": 4.5,
@@ -15,7 +15,7 @@
     "cover": "/images/books/scheduled-suicide-day.jpg",
     "author": "Akiyoshi Rikako",
     "blurb": "Ruri ingin bunuh diri, namun hantu memberinya waktu seminggu untuk membongkar kejahatan ibu tirinya sebelum nyawanya dicabut.",
-    "pages": 389,
+    "pages": 264,
     "genre": ["Mystery", "Thriller", "Psychological"],
     "types": "Fiction",
     "rate": 3.5,
@@ -26,10 +26,145 @@
     "cover": "/images/books/rindu.jpg",
     "author": "Tere Liye",
     "blurb": "Kisah perjalanan haji tahun 1938 yang mengupas kerinduan, kebencian, dan penerimaan masa lalu lima tokoh di atas kapal.",
-    "pages": 520,
+    "pages": 544,
     "genre": ["Family", "History", "Romance"],
     "types": "Fiction",
     "rate": 4.5,
     "isbn":"978-623-95545-2-1"
-    }
+    },
+    {
+    "title": "The A.B.C. Murders",
+    "cover": "/images/books/abc-murders.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Poirot menerima surat tantangan berinisial ABC sebelum pembunuhan berantai terjadi secara urut berdasarkan abjad nama dan kota.",
+    "pages": 256,
+    "genre": [
+      "Mystery",
+      "Crime",
+      "Detective Fiction"
+    ],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn": "978-0-00-711924-0"
+  },
+  {
+    "title": "And Then There Were None",
+    "cover": "/images/books/and-then-there-were-none.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Sepuluh orang asing diundang ke pulau terpencil, lalu mati satu per satu mengikuti syair lagu anak-anak yang mengerikan.",
+    "pages": 264,
+    "genre": [
+      "Mystery",
+      "Psychological Thriller",
+      "Crime"
+    ],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn": "978-0-06-207348-8"
+  },
+  {
+    "title": "Hallowe'en Party",
+    "cover": "/images/books/halloween-party.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Seorang gadis mengaku melihat pembunuhan saat pesta Halloween, namun kemudian ditemukan tewas tenggelam di ember berisi apel.",
+    "pages": 336,
+    "genre": [
+      "Mystery",
+      "Detective Fiction",
+      "Crime"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-00-711943-1"
+  },
+  {
+    "title": "Death on the Nile",
+    "cover": "/images/books/death-on-the-nile.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Liburan mewah Poirot di Mesir terusik ketika seorang pewaris kaya ditemukan tewas tertembak di atas kapal pesiar.",
+    "pages": 352,
+    "genre": [
+      "Mystery",
+      "Adventure",
+      "Detective Fiction"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-00-711932-5"
+  },
+  {
+    "title": "Crooked House",
+    "cover": "/images/books/crooked-house.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Kakek kaya raya diracun di rumahnya yang megah, cucu perempuannya mencurigai salah satu anggota keluarga sebagai pelaku.",
+    "pages": 224,
+    "genre": [
+      "Mystery",
+      "Family Drama",
+      "Crime"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-00-711933-2"
+  },
+  {
+    "title": "Towards Zero",
+    "cover": "/images/books/towards-zero.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Inspektur Battle menyelidiki pembunuhan wanita tua di mana berbagai kejadian masa lalu bertemu di satu titik fatal.",
+    "pages": 242,
+    "genre": [
+      "Mystery",
+      "Psychological",
+      "Crime"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-00-711938-7"
+  },
+  {
+    "title": "Laut Bercerita",
+    "cover": "/images/books/laut-bercerita.jpg",
+    "author": "Leila S. Chudori",
+    "blurb": "Kisah pilu persahabatan dan kekejaman yang dialami para aktivis mahasiswa yang diculik dan dihilangkan paksa pada era Reformasi.",
+    "pages": 379,
+    "genre": [
+      "Historical Fiction",
+      "Political Drama",
+      "Tragedy"
+    ],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn": "978-602-424-694-5"
+  },
+  {
+    "title": "Namaku Alam",
+    "cover": "/images/books/namaku-alam.jpg",
+    "author": "Leila S. Chudori",
+    "blurb": "Segara Alam berjuang tumbuh dewasa menanggung stigma sejarah kelam ayahnya sembari mencari jati diri dan kebenaran masa lalu.",
+    "pages": 448,
+    "genre": [
+      "Historical Fiction",
+      "Coming-of-age",
+      "Family Drama"
+    ],
+    "types": "Fiction",
+    "rate": 3,
+    "isbn": "978-602-424-834-5"
+  },
+  {
+    "title": "The Adventure of the Blue Carbuncle",
+    "cover": "/images/books/berlian-biru.jpg",
+    "author": "Sir Arthur Conan Doyle",
+    "blurb": "Holmes dan Watson melacak asal-usul batu permata curian yang secara mengejutkan ditemukan di dalam tembolok seekor angsa natal.",
+    "pages": 147,
+    "genre": [
+      "Detective Fiction",
+      "Short Story",
+      "Classic Mystery"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-14-043771-3"
+  }
 ]
