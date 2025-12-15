@@ -1,9 +1,8 @@
 import dataBuku from "@/app/data/bookData.json";
 import Header from "./ui/components/header";
 import Cards from "./ui/components/cards";
-import { Books } from "./ui/components/cards";
-import { Greet } from "./ui/components/filter";
 import Footer from "./ui/components/footer";
+import Link from "next/link";
 
 export default function Home(){
   return <>
@@ -13,13 +12,6 @@ export default function Home(){
       return <Cards buku={buku} key={index}/>
     })}
     </div>
-    {/* <Books buku={dataBuku[0]}/> */}
-    {/* <form action={Greet}>
-      <input type="checkbox" name="buku1" id="buku1" value="haha"/>
-      <label htmlFor="buku1">Buku 1</label>
-      <input type="submit" value="Submit"/>
-    </form> */}
-
     <Footer/>
   </>
 }   

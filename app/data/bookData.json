@@ -41,7 +41,7 @@
     "genre": [
       "Mystery",
       "Crime",
-      "Detective Fiction"
+      "Detective"
     ],
     "types": "Fiction",
     "rate": 4.5,
@@ -55,7 +55,7 @@
     "pages": 264,
     "genre": [
       "Mystery",
-      "Psychological Thriller",
+      "Psychological",
       "Crime"
     ],
     "types": "Fiction",
@@ -70,7 +70,7 @@
     "pages": 336,
     "genre": [
       "Mystery",
-      "Detective Fiction",
+      "Detective",
       "Crime"
     ],
     "types": "Fiction",
@@ -86,7 +86,7 @@
     "genre": [
       "Mystery",
       "Adventure",
-      "Detective Fiction"
+      "Detective"
     ],
     "types": "Fiction",
     "rate": 4,
@@ -100,7 +100,7 @@
     "pages": 224,
     "genre": [
       "Mystery",
-      "Family Drama",
+      "Family",
       "Crime"
     ],
     "types": "Fiction",
@@ -129,8 +129,8 @@
     "blurb": "Kisah pilu persahabatan dan kekejaman yang dialami para aktivis mahasiswa yang diculik dan dihilangkan paksa pada era Reformasi.",
     "pages": 379,
     "genre": [
-      "Historical Fiction",
-      "Political Drama",
+      "History",
+      "Drama",
       "Tragedy"
     ],
     "types": "Fiction",
@@ -144,9 +144,9 @@
     "blurb": "Segara Alam berjuang tumbuh dewasa menanggung stigma sejarah kelam ayahnya sembari mencari jati diri dan kebenaran masa lalu.",
     "pages": 448,
     "genre": [
-      "Historical Fiction",
-      "Coming-of-age",
-      "Family Drama"
+      "History",
+      "Family",
+      "Drama"
     ],
     "types": "Fiction",
     "rate": 3,
@@ -159,12 +159,26 @@
     "blurb": "Holmes dan Watson melacak asal-usul batu permata curian yang secara mengejutkan ditemukan di dalam tembolok seekor angsa natal.",
     "pages": 147,
     "genre": [
-      "Detective Fiction",
-      "Short Story",
-      "Classic Mystery"
+      "Detective",
+      "Mystery"
     ],
     "types": "Fiction",
     "rate": 4,
     "isbn": "978-0-14-043771-3"
+  },
+  {
+    "title": "Endless Night",
+    "cover": "/images/books/endless-night.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Michael Rogers membangun rumah impian di tanah terkutuk, namun tragedi misterius segera menghancurkan kebahagiaan pernikahannya.",
+    "pages": 304,
+    "genre": [
+      "Mystery",
+      "Psychological",
+      "Thriller"
+    ],
+    "types": "Fiction",
+    "rate": 4,
+    "isbn": "978-0-00-713661-1"
   }
 ]

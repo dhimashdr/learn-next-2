@@ -1,5 +1,7 @@
 'use server'
 
-export async function Greet(){
-    return 
+import { redirect } from "next/navigation"
+
+export async function Hello(){
+    return redirect('/hello')
 }
