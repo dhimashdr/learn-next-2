@@ -37,7 +37,7 @@ export function BookCard({buku} : Books){
 }
 
 export default function Cards({buku} : Books){
-    return <Link href={`/books/${buku.isbn}`}><div className="bg-linear-to-b dark:from-red-950/40 dark:to-cyan-950/40 flex rounded-lg md:rounded-xl drop-shadow-lg drop-shadow-background h-42 md:h-58 lg:h-60 items-center-safe">
+    return <div className="bg-linear-to-b from-red-950/40 to-cyan-950/40 flex rounded-lg md:rounded-xl drop-shadow-lg drop-shadow-background h-42 md:h-58 lg:h-60 items-center-safe">
         <div className="flex-1/3 relative h-full w-full">
             <Image alt={buku.title} src={buku.cover} fill className="rounded-r-lg rounded-bl-lg lg:rounded-r-xl lg:rounded-bl-xl w-fit object-cover object-center"></Image>
         </div>
@@ -48,7 +48,7 @@ export default function Cards({buku} : Books){
             <div className="flex items-end-safe">
                 <div className="flex gap-1 flex-wrap flex-2/3 text-[0.5rem] md:text-xs">
                     {buku.genre.map((g, i) => {
-                    return <div className="bg-slate-600 w-fit p-1 rounded-sm font-medium" key={i}>{g}</div>
+                    return <div key={i} className="bg-slate-600 w-fit p-1 rounded-sm font-medium">{g}</div>
                     })}
                 </div>
                 <div className="flex-1/3 text-sm h-fit">
@@ -59,5 +59,4 @@ export default function Cards({buku} : Books){
             </div>
         </div>
     </div>
-    </Link>
 }

@@ -4,7 +4,7 @@ export default function Footer(){
             <p>/dhimashdr</p>
         </div>
         <div className="text-right">
-            <p>sakkarepku</p>
+            <p>2025</p>
         </div>
     </div>
 }

@@ -1,9 +1,19 @@
+'use server'
+
 import dataBuku from "@/app/data/bookData.json";
 import Image from "next/image";
 import Link from "next/link";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import { inter } from "@/app/ui/fonts";
+import Cards from "@/app/ui/components/cards";
 
 interface PageProps {
   params: Promise<{ id: string }>
+}
+
+const mdxComponents = {
+    Rating: ({value}: { value: number  }) => <div className="text-yellow-500">{"★".repeat(value)}</div>,
+    TextRed: ({text}: {text : string}) => <p className="text-red-500">{text}</p>
 }
 
 export default async function DetailBuku({ params }: PageProps){
@@ -11,17 +21,39 @@ export default async function DetailBuku({ params }: PageProps){
     const book = dataBuku.find((book) => book.isbn === id)
     
     return <>
-        <div className="h-screen flex">
-            <div className="m-auto text-center items-center">
-                <p className="text-xl font-bold">PAGE UNDER CONSTRUCTION</p>
-                <br />
-                <Image className="mx-auto" src="/images/bocchi.gif" alt="bocchi" width={200} height={200} unoptimized/>
-                <br />
-                <p>YOU CAN SEARCH <span className="text-blue-300">{book?.title}</span> REVIEWS ON <span className="text-yellow-300">GOODREADS</span></p>
-                <br />
-                <Link href="\">
-                    <div className="bg-pink-800/60 rounded-full font-bold text-xl w-fit mx-auto p-2 px-6">BACK TO HOME</div>
-                </Link>
+        <div className="w-full px-6 lg:px-18">
+            <h1 className={`${inter.className} font-bold text-2xl md:text-3xl lg:text-4xl`}>Info</h1>
+            <hr className="text-slate-600"/>
+            <br />
+            {/* <div className="flex h-32 md:h-72 lg:h-96 bg-slate-500 items-center-safe">
+                <div className="relative flex-1/4 w-full h-full">
+                    <Image src={book?.cover ?? ""} alt={book?.title ?? ""} fill className="object-cover object-top w-fit"/>
+                </div>
+                <div className={`${inter.className} flex-3/4 p-4 md:p-8 lg:p-12`}>
+                    <h1 className="font-bold text-sm md:text-2xl xl:text-4xl">{book?.title}</h1>
+                    <h4 className="font-light text-[0.5rem] md:text-xs xl:text-sm mb-2">{book?.author}</h4>
+                    <p className="font-medium text-[0.5rem] md:text-xs xl:text-sm">{book?.blurb}</p>
+                </div>
+            </div> */}
+            <div className="w-full mx-auto">
+                <Cards buku={book!}/>
+            </div>
+            <br />
+            <br />
+            <h1 className={`${inter.className} font-bold text-2xl md:text-3xl lg:text-4xl`}>Review <span className="font-light text-[0.5rem] md:text-xs lg:text-sm">(sejujurnya)</span></h1>
+            <hr className="text-slate-600"/>
+            <br />
+            <div className="text-sm lg:text-lg">
+                <MDXRemote source={book?.review ?? ""} components={mdxComponents}/>
+            </div>
+            <br />
+            <br />
+            <h1 className={`${inter.className} font-bold text-2xl md:text-3xl lg:text-4xl`}>Favorite Quote <span className="font-light text-[0.5rem] md:text-xs lg:text-sm">(dari bukunya)</span></h1>
+            <hr className="text-slate-600"/>
+            <br />
+            <div className="w-1/3 mx-auto text-xs lg:text-lg">
+                <p className="text-left italic">"{book?.quote}"</p>
+                <p className="text-right">- {book?.author}</p>
             </div>
         </div>
     </>
