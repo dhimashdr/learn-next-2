@@ -51,7 +51,7 @@ export default async function DetailBuku({ params }: PageProps){
             <h1 className={`${inter.className} font-bold text-2xl md:text-3xl lg:text-4xl`}>Favorite Quote <span className="font-light text-[0.5rem] md:text-xs lg:text-sm">(dari bukunya)</span></h1>
             <hr className="text-slate-600"/>
             <br />
-            <div className="w-1/3 mx-auto text-xs lg:text-lg">
+            <div className="w-full lg:w-1/2 mx-auto text-xs lg:text-lg">
                 <p className="text-left italic">"{book?.quote}"</p>
                 <p className="text-right">- {book?.author}</p>
             </div>
