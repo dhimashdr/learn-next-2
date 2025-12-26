@@ -46,14 +46,14 @@ export default function Cards({buku} : Books){
             <p className="text-[0.5rem] md:text-xs mb-2 md:mb-4"><span className="text-red-200">{buku.author}</span> | <span className="text-blue-200">{buku.pages} hlm</span></p>
             <p className="text-[0.5rem] md:text-[0.65rem] mb-2 md:mb-4">{buku.blurb}</p>
             <div className="flex items-end-safe">
-                <div className="flex gap-1 flex-wrap flex-2/3 text-[0.5rem] md:text-[0.65rem]">
+                <div className="flex gap-1 flex-wrap flex-2/3 text-[0.5rem] md:text-[0.65rem] pb-1">
                     {buku.genre.map((g, i) => {
                     return <div key={i} className="bg-slate-600 w-fit p-1 rounded-sm font-medium">{g}</div>
                     })}
                 </div>
                 <div className="flex-1/3 text-sm h-fit">
                     <p className="text-right text-[0.5rem] md:text-xs"><span className="font-bold text-xs md:text-lg">{buku.rate}</span>/5
-                    <StarIcon className="text-yellow-500 h-3 w-3 lg:h-6 lg:w-6 align-text-bottom inline-block"/>
+                    <StarIcon className="text-yellow-500 w-2 lg:w-5 align-text-bottom inline-block"/>
                     </p>
                 </div>
             </div>
