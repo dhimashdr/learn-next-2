@@ -19,7 +19,7 @@ export default function Search(){
         replace(`${pathName}?${params.toString()}`)
     }, 500)
 
-    return <div className="flex bg-slate-800  w-full rounded-3xl px-4 py-1 border-2 text-xs md:text-sm">
+    return <div className="flex bg-slate-800  w-full rounded-3xl px-4 py-1 border md:border-2 text-xs md:text-sm">
         <input placeholder="Search book by title..." type="text" onChange={(e) => handleSearch(e.target.value)} defaultValue={searchParams.get('q')?.toString()} className="border-slate-300 focus:ring-0 focus:outline-none focus:border-blue-300 flex-1/2"/>
         <MagnifyingGlassIcon className="w-5"/>
     </div>

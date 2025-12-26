@@ -182,5 +182,16 @@
     "types": "Fiction",
     "rate": 4,
     "isbn": "978-0-00-713661-1"
+  },
+  {
+    "title": "Pembunuhan Roger Ackroyd",
+    "cover": "/images/books/murder-of-roger-ackroyd.jpg",
+    "author": "Agatha Christie",
+    "blurb": "Roger Ackroyd dibunuh di ruang kerjanya. Hercule Poirot harus mengungkap rahasia kelam di desa King's Abbot yang tenang.",
+    "pages": 352,
+    "genre": ["Mystery", "Detective", "Crime"],
+    "types": "Fiction",
+    "rate": 4.5,
+    "isbn": "978-979-22-9214-5"
   }
 ]
