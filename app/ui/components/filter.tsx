@@ -73,7 +73,8 @@ export default function Filter(){
         <div id="Genres" className="hidden">
             <form className="bg-slate-900 grid-cols-2 md:grid-cols-1 p-2 grid gap-1">
         {genreArray.map((g, i) => {
-            return <label key={i}><input type="checkbox" name="genre" id="genre" value={g.toLowerCase()}/> {g} </label>
+            return <label key={i}><input type="checkbox" name="genre" id="genre" value={g.toLowerCase()}/> {g} <span className="bg-slate-600 rounded-sm px-1">{`${bookData.filter(book => book.genre.includes(g)).length
+            }`}</span></label>
         })}
         </form>
         <div className="w-full flex font-semibold">
